@@ -1,0 +1,20 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Asincronismo y sus variantes",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:api": "node src/callback/api.js",
+    "promise:api": "node src/callback/promises.js"
+  },
+  "keywords": [
+    "callback",
+    "promise"
+  ],
+  "author": "IK",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
